@@ -1,0 +1,26 @@
+.search__form {
+  margin-right: 1rem;
+}
+
+.search__input {
+  box-sizing: border-box;
+
+  padding: 0.7rem 3.5rem 0.7rem 0.5rem;
+  border: 1px solid rgb(235, 227, 227);
+  border-radius: 0.3rem;
+}
+
+.search__btn {
+  background-color: rgb(253, 251, 251);
+  color: rgb(45, 187, 40);
+  margin-left: 1rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid rgb(45, 187, 40);
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.search__btn:hover {
+  color: rgb(67, 219, 62);
+  border: 1px solid rgb(67, 219, 62);
+}

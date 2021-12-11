@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(253, 251, 251);
+  padding: 0.5rem 0;
+}
+
+.movie__heading {
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.movie__heading:link {
+  color: black;
+}
+.movie__heading:visited {
+  color: black;
+}
+
+.movie__heading:hover {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.header__movie__text {
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .movie__heading {
+    text-decoration: none;
+    margin: 1rem;
+    font-weight: 500;
+  }
+}
